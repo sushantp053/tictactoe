@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Secure PDF Print & Decrypt</title>
+    <style>
+        :root {
+            --primary: #00668b;
+            --on-primary: #ffffff;
+            --background: #fdfcff;
+            --surface: #f2f4f8;
+            --text: #191c1e;
+            --text-secondary: #42474e;
+            --border: #e0e2ec;
+            --accent: #2e6088;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #7cd0ff;
+                --on-primary: #00344a;
+                --background: #111416;
+                --surface: #1a1c1e;
+                --text: #e1e2e5;
+                --text-secondary: #c2c7ce;
+                --border: #42474e;
+                --accent: #7cd0ff;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--surface);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+        }
+
+        .header {
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: #00668b20;
+            color: var(--primary);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: var(--primary);
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }
+
+        p, ul {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        ul {
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .card {
+            background-color: var(--background);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin: 20px 0;
+        }
+
+        .card-title {
+            font-weight: bold;
+            color: var(--text);
+            margin-bottom: 6px;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Privacy Policy</h1>
+        <p><strong>App:</strong> Secure PDF Print & Decrypt</p>
+        <p><strong>Effective Date:</strong> August 28, 2026</p>
+        <span class="badge">🔒 100% Local & On-Device Processing</span>
+    </div>
+
+    <p>
+        This Privacy Policy describes how <strong>Secure PDF Print & Decrypt</strong> ("we", "our", or "the app") handles your personal data and documents. We are committed to protecting your privacy and ensuring you have complete control over your sensitive files.
+    </p>
+
+    <h2>1. Summary: Zero Personal Data Collection</h2>
+    <div class="card">
+        <div class="card-title">🛡️ Strict Local-Only Policy</div>
+        <p style="margin:0;">
+            All PDF unlocking, password verification, rendering, printing, and file export operations happen <strong>exclusively on your device in volatile memory (RAM)</strong>. We do <strong>not</strong> upload, collect, transmit, or store your documents, passwords, or personal details on any remote servers.
+        </p>
+    </div>
+
+    <h2>2. Information We Process on Your Device</h2>
+    <ul>
+        <li><strong>PDF Files:</strong> Files selected by you or shared to the application are loaded into local memory solely to render pages, remove encryption as requested, and send print jobs to your chosen print service.</li>
+        <li><strong>Passwords:</strong> Passwords entered to unlock documents are used exclusively in temporary device memory for cryptographic decryption and are wiped as soon as the session ends or when the file is closed. Passwords are never saved or sent anywhere.</li>
+    </ul>
+
+    <h2>3. Third-Party Services & Advertising</h2>
+    <p>
+        The app uses <strong>Google AdMob</strong> to display banner and interstitial advertisements to support ongoing development.
+    </p>
+    <p>
+        Google AdMob may collect and use standard device identifiers (such as Android Advertising ID), coarse location, or app interaction data in accordance with Google's Privacy Policy to serve relevant ads and prevent ad fraud.
+    </p>
+    <ul>
+        <li>
+            For more details on how Google processes ad data, please review:
+            <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Ad Policies & Privacy</a>
+        </li>
+    </ul>
+
+    <h2>4. Device Permissions</h2>
+    <p>The app requests the minimum permissions necessary to function:</p>
+    <ul>
+        <li><strong>INTERNET & ACCESS_NETWORK_STATE:</strong> Required by the Google AdMob SDK to load advertisements. PDF processing functions fully offline without requiring an active internet connection.</li>
+        <li><strong>Storage / Media Access:</strong> Allows you to pick PDF files from your device and save exported decrypted documents via the system Storage Access Framework.</li>
+    </ul>
+
+    <h2>5. Data Security</h2>
+    <p>
+        Your documents never leave your device. The app adheres to the Android security model and uses secure in-memory buffers that are cleared when you navigate away or close the application.
+    </p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+        Our application is not directed to children under the age of 13. We do not knowingly collect personal identifiable information from anyone.
+    </p>
+
+    <h2>7. Changes to This Privacy Policy</h2>
+    <p>
+        We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.
+    </p>
+
+    <h2>8. Contact Us</h2>
+    <p>
+        If you have any questions or suggestions regarding this Privacy Policy, please contact us at:
+    </p>
+    <p>
+        <strong>Email:</strong> <a href="mailto:sushantp053@gmail.com">sushantp053@gmail.com</a>
+    </p>
+
+    <div class="footer">
+        &copy; 2026 Secure PDF Print & Decrypt. All rights reserved.
+    </div>
+</div>
+
+</body>
+</html>
